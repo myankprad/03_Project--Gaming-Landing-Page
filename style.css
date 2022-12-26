@@ -64,6 +64,18 @@ p {
     cursor: pointer;
     background-color: #f4694c;
   }
+  
+  .btn:hover{
+    border: none;
+    border-radius: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: #f4694c;
+    transition: 1s;
+  }
+
 
   .head{
   background-image: url("./futuristic-bg.png");
@@ -102,3 +114,6 @@ p {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)) ,  url("./Rectangle\ 606.png");
   }
+
+
+  

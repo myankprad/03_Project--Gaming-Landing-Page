@@ -7,13 +7,31 @@
         <title>Gaming Landing Page</title>
         <script src="https://cdn.tailwindcss.com"></script>
          <link rel="stylesheet" href="style.css">
+
+         <script>
+            tailwind.config = {
+              theme: {
+                screens:{
+                    'sm':'360px',
+                    'md':'768px',
+                    'lg':'930px',
+                    'xl': '1260px',
+                    
+                }
+            }}
+          </script>
+    
+    
+
+
+
     </head>
 <body>
     
 
 
     <section class="head">
-        <nav class="flex justify-between pt-4 pb-[20px]">
+        <nav class="flex justify-between pt-4 pb-[20px] ">
             <img src="./Project 3- Gaming Landing Page/Assets/Icons/Logo.svg" alt="">
             <ul class="flex gap-4">
                 <li>Home </li>
